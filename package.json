@@ -1,0 +1,13 @@
+{
+  "name": "satcom-ground-station",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && npm start",
+    "dev": "cd client && npm run dev"
+  },
+  "dependencies": {
+    "satellite.js": "^5.0.0"
+  }
+}
